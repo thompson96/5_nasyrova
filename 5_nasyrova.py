@@ -68,7 +68,7 @@ currencies = {
 
 root = Tk()
 root.title('Курс обмена валют USD')
-root.geometry('360x180')
+root.geometry('360x350')
 
 Label(root, text='Базовая валюта').pack()
 base_combobox = ttk.Combobox(root, values=list(currencies.keys()))
