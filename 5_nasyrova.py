@@ -76,7 +76,7 @@ currencies = {
 }
 
 root = Tk()
-root.title('Курс обмена валют USD')
+root.title('Курс обмена валют')
 root.geometry('360x350')
 
 Label(root, text='Базовая валюта').pack()
